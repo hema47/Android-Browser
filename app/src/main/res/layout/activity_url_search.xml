@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.hp.androidbrowser.Activity.UrlSearch"
+    tools:ignore="WebViewLayout">
+
+    <EditText
+        android:id="@+id/search_url"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:inputType="textMultiLine"
+        android:hint="Search or enter any  url"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/search_btn"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/search_url"
+        android:layout_alignBottom="@+id/search_url"
+        android:layout_alignTop="@+id/search_url"
+        android:background="#4527a0"
+        android:gravity="center"
+        android:text="Search"
+        android:textColor="#ffffff"
+        />
+    <Button
+        android:id="@+id/home_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/search_btn"
+        android:layout_alignBottom="@+id/search_btn"
+        android:layout_alignTop="@+id/search_url"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="1dp"
+        android:background="@drawable/home"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        />
+    <WebView
+        android:id="@+id/web_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/search_url"
+        >
+    </WebView>
+</RelativeLayout>
+

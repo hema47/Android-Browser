@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0E0E0"
+    tools:context="com.example.hp.androidbrowser.Activity.HomeActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:background="@drawable/top"
+            android:id="@+id/relative"
+            >
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/search_url_home"
+            android:layout_width="310dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/relative"
+            android:background="#ffffff"
+            android:inputType="textMultiLine"
+            android:hint="Search or enter any  url"
+            />
+
+        <Button
+            android:id="@+id/search_btn_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/search_url_home"
+            android:layout_alignBottom="@+id/search_url_home"
+            android:layout_marginLeft="1dp"
+            android:layout_alignTop="@+id/search_url_home"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/search"
+
+            android:gravity="center"
+            />
+
+        <Button
+            android:id="@+id/facebook_btn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/search_url_home"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/facebook"
+            android:textColor="?attr/colorBackgroundFloating"
+            />
+
+        <Button
+            android:id="@+id/youtube_btn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/search_url_home"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_toEndOf="@+id/facebook_btn"
+            android:background="@drawable/youtube"
+            android:textColor="?attr/colorBackgroundFloating" />
+
+        <Button
+            android:id="@+id/instagram_btn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/search_btn_home"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_toEndOf="@+id/youtube_btn"
+            android:background="@drawable/instagram"
+            android:textColor="?attr/colorBackgroundFloating" />
+        <Button
+            android:id="@+id/google_btn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/facebook_btn"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/google"
+            android:textColor="?attr/colorBackgroundFloating"
+            />
+
+        <Button
+            android:id="@+id/snapchat_btn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/facebook_btn"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_toEndOf="@+id/google_btn"
+            android:background="@drawable/snapchat"
+            android:textColor="?attr/colorBackgroundFloating" />
+
+        <Button
+            android:id="@+id/yahoo_btn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/facebook_btn"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_toEndOf="@+id/snapchat_btn"
+            android:background="@drawable/yahoo"
+            android:textColor="?attr/colorBackgroundFloating"
+            />
+        <Button
+
+            android:id="@+id/gmail_btn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/google_btn"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/gmail"
+            android:textColor="?attr/colorBackgroundFloating"
+            />
+        <Button
+            android:id="@+id/twitter_btn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/google_btn"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_toEndOf="@+id/gmail_btn"
+            android:background="@drawable/twitter"
+            android:textColor="?attr/colorBackgroundFloating" />
+
+        <Button
+            android:id="@+id/linkedin_btn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/google_btn"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_toEndOf="@+id/snapchat_btn"
+            android:background="@drawable/linkedin"
+            android:textColor="?attr/colorBackgroundFloating"
+            />
+
+
+
+</RelativeLayout>
